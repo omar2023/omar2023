@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(233, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    margin: 0;
+    padding: 0%;
+    
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+#main-header{
+    background-color: rgb(207, 109, 40);
+    color: white;  
+}
+#navbar{background-color: #333333;border-bottom: 10px; border-bottom: 10px;
+    
+}
+#navbar ul{
+    list-style: none;
+    padding: 0;
+}
+#navbar li{display: inline;padding-right: 30px;font-weight: bold;color: white;}
+#navbar a{text-decoration: none;color: #fff;font-size: 20px;}
+#showcase{background: url(nature1.jpg); min-height: 400px;background-position: center; max-width: 1000px;margin: auto; text-align: center;}
+#showcase h1{font-size: 50px;line-height: 1.6em;}
+#main-footer{background-color: #333333;}
+#main {float: left; width: 70%; box-sizing: border-box; border-radius: 5px;padding: 10px;}
+#sidebar{float: right; width: 30%;  box-sizing: border-box; padding: 9px; background-color: rgb(61, 50, 50); color: white; margin-top: 30px; border-radius: 5px;}
